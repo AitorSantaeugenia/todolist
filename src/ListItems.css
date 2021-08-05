@@ -3,7 +3,7 @@
     width: 555px;
     margin: 20px auto;
     height: 50px;
-    background-color: #bf07ac;
+    background-color: #d04b3f;
     border-radius: 5px;
 }
 .list p{
@@ -29,6 +29,11 @@
     font-size: 15px;
     cursor: pointer;
 }
+
+.faicons:hover{
+    color:black;
+}
+
 .itemsAnim-enter{
     opacity: 0.01;
 }
@@ -42,4 +47,10 @@
 .itemsAnim-leave .itemsAnim-leave-active{
     opacity: 0.01;
     transition: opacity 300ms ease-in
+}
+
+@media (max-width: 630px) {
+    .list{
+        width: 360px;
+    }
 }
