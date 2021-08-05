@@ -1,23 +1,35 @@
 body{
-  background-color: #9266ff;
+  background-color: #bfa8fa;
 }
+
 .App{
   background-color: #3f3160;
   min-height:500px;
-  width: 400px;
+  width: 600px;
   margin: 40px auto;
+  padding-bottom:20px;
+}
+
+.textHeader{
+  color:white;
+  text-align: center;
+}
+
+.App h1{
+  padding: 40px 0 0 0;
 }
 
 #to-do-form input{
   background-color: rgba(27, 112, 137, 1);
   border: 0; 
   color: #fff;
-  width: 200px;
+  width: 400px;
   height: 50px;
   margin: 20px;
-  padding: 0 20px;
+  padding: 0 30px;
   font-size: 18px;
   border-radius: 10px;
+
 }
 #to-do-form input::placeholder{
   color: rgba(255,255,255,0.5);
@@ -32,6 +44,7 @@ body{
   border: 0;
   background-color:rgba(202, 156, 24, 1); 
   cursor: pointer;
+  font-weight: bolder;
 }
 #to-do-form button:focus{
   outline: none;
